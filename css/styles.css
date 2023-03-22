@@ -93,7 +93,7 @@ body {
     color: var(--primary-white-color);
 }
 
-.feature-list .title, .section-three .title, .portfolio .title {
+.section-two .title, .section-four .title, .portfolio .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,15 +101,15 @@ body {
     color: var(--title-text-color);
 }
 
-.section-three {
+.section-four {
     background-color: var(--cloud-color);
 }
 
-.section-three .first-li {
+.section-four .first-li {
     background-color: var(--primary-white-color);
 }
 
-.section-two .head, .section-three .head {
+.section-three .head, .section-four .head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
