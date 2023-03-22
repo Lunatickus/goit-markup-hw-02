@@ -1,5 +1,3 @@
-
-
 :root {
     --primary-text-color:  #434455;
     --title-text-color: #2E2F42;
@@ -7,6 +5,10 @@
     --primary-white-color: #FFFFFF;
     --iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
+}
+
+:root {
+    --primary-text-color: #434455;
 }
 
 body {
