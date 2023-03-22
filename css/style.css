@@ -1,4 +1,11 @@
-
+:root {
+    --primary-text-color:  #434455;
+    --title-text-color: #2E2F42;
+    --accent-color:  #404BBF;
+    --primary-white-color: #FFFFFF;
+    --iris-color: #4D5AE5;
+    --cloud-color: #F4F4FD;
+}
 
 body {
     background-color: var(--primary-white-color);
@@ -15,15 +22,18 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: var(--iris-color)
+}
+
+.link {
     text-decoration: none;
 }
 
-.logo .web {
-    color: var(--iris-color);
+.logo .studio {
+    color: var(--title-text-color);
 }
 
-.site-nav .link {
+.site-nav .list .link {
     font-weight: 500;
     color: var(--title-text-color);
     text-decoration: none;
@@ -36,10 +46,13 @@ body {
     color: var(--accent-color);
 }
 
+.site-address {
+    font-style: normal;
+}
+
 .site-address .link {
     color: var(--primary-text-color);
     text-decoration: none;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -49,11 +62,11 @@ body {
     color: var(--accent-color);
 }
 
-.section1 {
+.section-one {
     background-color: var(--title-text-color);
 }
 
-.section1 .header {
+.section-one .header {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -62,7 +75,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.section1 .button, .portfolio .button1 {
+.section-one .button, .portfolio .button1 {
     background-color: var(--iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 500;
@@ -74,8 +87,8 @@ body {
     font-family: inherit;
 }
 
-.section1 .button:hover, .portfolio .button1:hover, .portfolio .button:hover,
-.section1 .button:focus, .portfolio .button1:focus, .portfolio .button:focus {
+.section-one .button:hover, .portfolio .button1:hover, .portfolio .button:hover,
+.section-one .button:focus, .portfolio .button1:focus, .portfolio .button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -88,7 +101,7 @@ body {
     color: var(--title-text-color);
 }
 
-.section2 .head, .section3 .head {
+.section-two .head, .section-three .head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -135,13 +148,4 @@ body {
 
 .portfolio .link {
     text-decoration: none;
-}
-
-:root {
-    --primary-text-color:  #434455;
-    --title-text-color: #2E2F42;
-    --accent-color:  #404BBF;
-    --primary-white-color: #FFFFFF;
-    --iris-color: #4D5AE5;
-    --cloud-color: #F4F4FD;
 }
